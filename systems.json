@@ -1,0 +1,207 @@
+		[{
+			"id": "nes",
+			"name": "Nintendo Entertainment System",
+			"year": 19830,
+			"nick": "NES",
+			"emu": "%emu%/RetroArch/retroarch.exe",
+			"cmd": "-f -L %emu%/RetroArch/cores/nestopia_libretro.dll",
+			"roms": []
+		},
+		{
+			"id": "sms",
+			"name": "Sega Master System",
+			"year": 19850,
+			"nick": "SMS",
+			"emu": "%emu%/RetroArch/retroarch.exe",
+			"cmd": "-f -L %emu%/RetroArch/cores/genesis_plus_gx_libretro.dll",
+			"roms": []
+		},
+		{
+			"id": "pce",
+			"name": "PC Engine/TurboGrafx-16",
+			"year": 19870,
+			"nick": "PCE",
+			"emu": "%emu%/RetroArch/retroarch.exe",
+			"cmd": "-f -L %emu%/RetroArch/cores/mednafen_pce_fast_libretro.dll",
+			"roms": []
+		},
+		{
+			"id": "pcecd",
+			"name": "PC Engine CD/TurboGrafx-16 CD",
+			"year": 19880,
+			"nick": "PCECD",
+			"emu": "%emu%/RetroArch/retroarch.exe",
+			"cmd": "-f -L %emu%/RetroArch/cores/mednafen_pce_fast_libretro.dll",
+			"roms": []
+		},
+		{
+			"id": "gen",
+			"name": "Sega Genesis",
+			"year": 19881,
+			"nick": "GEN",
+			"emu": "%emu%/RetroArch/retroarch.exe",
+			"cmd": "-f -L %emu%/RetroArch/cores/genesis_plus_gx_libretro.dll",
+			"roms": []
+		},
+		{
+			"id": "snes",
+			"name": "Super Nintendo Entertainment System",
+			"year": 19900,
+			"nick": "SNES",
+			"emu": "%emu%/RetroArch/retroarch.exe",
+			"cmd": "-f -L %emu%/RetroArch/cores/snes9x_libretro.dll",
+			"roms": []
+		},
+		{
+			"id": "scd",
+			"name": "Sega CD",
+			"year": 19920,
+			"nick": "SCD",
+			"emu": "%emu%/RetroArch/retroarch.exe",
+			"cmd": "-f -L %emu%/RetroArch/cores/genesis_plus_gx_libretro.dll",
+			"roms": []
+		},
+		{
+			"id": "gb",
+			"name": "Gameboy/Gameboy Color",
+			"year": 19890,
+			"nick": "GB/GBC",
+			"emu": "%emu%/RetroArch/retroarch.exe",
+			"cmd": "-f -L %emu%/RetroArch/cores/gambatte_libretro.dll",
+			"roms": []
+		},
+		{
+			"id": "dos",
+			"name": "MS-DOS",
+			"year": 19820,
+			"nick": "DOS",
+			"emu": "C:/Program Files (x86)/DOSBox-0.74/DOSBox.exe",
+			"cmd": "-fullscreen",
+			"roms": []
+		},
+		{
+			"id": "3do",
+			"name": "3DO Interactive Multiplayer",
+			"year": 19930,
+			"nick": "3DO",
+			"emu": "%emu%/RetroArch/retroarch.exe",
+			"cmd": "-f -L %emu%/RetroArch/cores/4do_libretro.dll",
+			"roms": []
+		},
+		{
+			"id": "jag",
+			"name": "Atari Jaguar",
+			"year": 19931,
+			"nick": "JAG",
+			"emu": "%emu%/RetroArch/retroarch.exe",
+			"cmd": "-f -L %emu%/RetroArch/cores/virtualjaguar_libretro.dll",
+			"roms": []
+		},
+		{
+			"id": "psx",
+			"name": "Playstation",
+			"year": 19941,
+			"nick": "PS1",
+			"emu": "%emu%/RetroArch/retroarch.exe",
+			"cmd": "-f -L %emu%/RetroArch/cores/mednafen_psx_hw_libretro.dll",
+			"roms": []
+		},
+		{
+			"id": "ss",
+			"name": "Sega Saturn",
+			"year": 19940,
+			"nick": "SS",
+			"emu": "%emu%/RetroArch/retroarch.exe",
+			"cmd": "-f -L %emu%/RetroArch/cores/mednafen_saturn_libretro.dll",
+			"roms": []
+		},
+		{
+			"id": "pcfx",
+			"name": "PC-FX",
+			"year": 19942,
+			"nick": "PCFX",
+			"emu": "%emu%/RetroArch/retroarch.exe",
+			"cmd": "-f -L %emu%/RetroArch/cores/mednafen_pcfx_libretro.dll",
+			"roms": []
+		},
+		{
+			"id": "32x",
+			"name": "Sega 32X",
+			"year": 19882,
+			"nick": "32X",
+			"emu": "%emu%/RetroArch/retroarch.exe",
+			"cmd": "-f -L %emu%/RetroArch/cores/picodrive_libretro.dll",
+			"roms": []
+		},
+		{
+			"id": "n64",
+			"name": "Nintendo 64",
+			"year": 19960,
+			"nick": "N64",
+			"emu": "%emu%/RetroArch/retroarch.exe",
+			"cmd": "-f -L %emu%/RetroArch/cores/mupen64plus_libretro.dll",
+			"roms": []
+		},
+		{
+			"id": "dc",
+			"name": "Dreamcast",
+			"year": 19980,
+			"nick": "DC",
+			"emu": "%emu%/RetroArch/retroarch.exe",
+			"cmd": "-f -L %emu%/RetroArch/cores/reicast_libretro.dll",
+			"roms": []
+		},
+		{
+			"id": "ps2",
+			"name": "Playstation 2",
+			"year": 20000,
+			"nick": "PS2",
+			"emu": "C:/Program Files (x86)/PCSX2 1.4.0/pcsx2.exe",
+			"cmd": "--fullscreen --nogui --noguiprompt",
+			"roms": []
+		},
+		{
+			"id": "gcn",
+			"name": "Gamecube",
+			"year": 20011,
+			"nick": "GCN",
+			"emu": "C:/Program Files/Dolphin/Dolphin.exe",
+			"cmd": "/b /e",
+			"roms": []
+		},
+		{
+			"id": "gba",
+			"name": "Gameboy Advance",
+			"year": 20010,
+			"nick": "GBA",
+			"emu": "%emu%/RetroArch/retroarch.exe",
+			"cmd": "-f -L %emu%/RetroArch/cores/mgba_libretro.dll",
+			"roms": []
+		},
+		{
+			"id": "nds",
+			"name": "Nintendo DS",
+			"year": 20040,
+			"nick": "NDS",
+			"emu": "%emu%/DeSmuME X432R/DeSmuME_X432R_x64.exe",
+			"cmd": "",
+			"roms": []
+		},
+		{
+			"id": "psp",
+			"name": "Playstation Portable",
+			"year": 20050,
+			"nick": "PSP",
+			"emu": "%emu%/ppsspp/PPSSPPWindows64.exe",
+			"cmd": "",
+			"roms": []
+		},
+		{
+			"id": "wii",
+			"name": "Nintendo Wii",
+			"year": 20060,
+			"nick": "Wii",
+			"emu": "C:/Program Files/Dolphin/Dolphin.exe",
+			"cmd": "/b /e",
+			"roms": []
+		}]

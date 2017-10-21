@@ -11,72 +11,21 @@
 	</header>
 	<div class="container">
 		<div class="sidebar">
-			<ul>
-				<li><a href="#favs">Favorites</a></li>
-				<li><a href="#gb">Gameboy/Gameboy Color</a></li>
-				<li><a href="#gba">Gameboy Advance</a></li>
-				<li><a href="#gcn">Gamecube</a></li>
-				<li><a href="#n64">Nintendo 64</a></li>
-				<li><a href="#nds">Nintendo DS</a></li>
-				<li><a href="#nes">Nintendo Entertainment System</a></li>
-				<li><a href="#wii">Nintendo Wii</a></li>
-				<li><a href="#psx">Playstation</a></li>
-				<li><a href="#ps2">Playstation 2</a></li>
-				<li><a href="#psp">Playstation Portable</a></li>
-				<li><a href="#snes">Super Nintendo</a></li>
+			<ul id="system-list">
+				<li><a href="#recent">Recently Played</a></li>
+				<li><a href="#fav">Favorites</a></li>
 			</ul>
 		</div>
-		<div class="content">
-			<section id="favs">
+		<div class="content" id="system-sections">
+			<section id="recent">
+				<h1>Recently Played</h1>
+				<button onclick="clear_recent();return false;">Clear Recently Played</button>
+				<ul id="recent_roms"></ul>
+			</section>
+			<section id="fav">
 				<h1>Favorites</h1>
-				<ul>
-					<li><a href="javascript:run_game(exe_gb, switch_gb, '')">Game Title</a></li>
-				</ul>
-				<a href=""></a>
-			</section>
-			<section id="gb">
-				<h1>Gameboy/Gameboy Color</h1>
-				<ul id="gb_roms"></ul>
-			</section>
-			<section id="gba">
-				<h1>Gameboy Advance</h1>
-				<ul id="gba_roms"></ul>
-			</section>
-			<section id="gcn">
-				<h1>Gamecube</h1>
-				<ul id="gcn_roms"></ul>
-			</section>
-			<section id="n64">
-				<h1>Nintendo 64</h1>
-				<ul id="n64_roms"></ul>
-			</section>
-			<section id="nds">
-				<h1>Nintendo DS</h1>
-				<ul id="nds_roms"></ul>
-			</section>
-			<section id="nes">
-				<h1>Nintendo Entertainment System</h1>
-				<ul id="nes_roms"></ul>
-			</section>
-			<section id="wii">
-				<h1>Nintendo Wii</h1>
-				<ul id="wii_roms"></ul>
-			</section>
-			<section id="psx">
-				<h1>Playstation</h1>
-				<ul id="psx_roms"></ul>
-			</section>
-			<section id="ps2">
-				<h1>Playstation 2</h1>
-				<ul id="ps2_roms"></ul>
-			</section>
-			<section id="psp">
-				<h1>Playstation Portable</h1>
-				<ul id="psp_roms"></ul>
-			</section>
-			<section id="snes">
-				<h1>Super Nintendo</h1>
-				<ul id="snes_roms"></ul>
+				<button onclick="clear_fav();return false;">Clear Favorites</button>
+				<ul id="fav_roms"></ul>
 			</section>
 		</div>
 	</div>

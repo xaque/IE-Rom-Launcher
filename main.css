@@ -14,8 +14,7 @@ a, a:visited {
 }
 
 a:hover{
-	text-decoration: underline;
-	color: black;
+	color: #006;
 }
 
 header{
@@ -65,11 +64,68 @@ section ul{
 	margin-bottom:20px;
 	overflow:hidden;
 	border-top:1px solid #ccc;
+	column-count: 3;
 }
 
 section li{
-	border-bottom:1px solid #ccc;
-	float:left;
-	display:inline;
-	width:25%;
+	border-bottom: 1px solid #ccc;
+	float: left;
+	display: inline;
+	width: 100%;
+}
+/*
+#recent h1, #recent button{
+	display: inline-block;
+}
+*/
+
+.clr_btn{
+	border-top: 0;
+	width: 100%;
+}
+
+section button{
+
+}
+
+section li{
+	transition: background 0.1s;
+}
+
+section li:hover{
+	background: #ddd;
+}
+
+.addToFav{
+	display: none;
+	float: right;
+	background: #9cf;
+	border-radius: 5px;
+	border: #6ad solid 1px;
+	color: white;
+	height: 16px;
+	font-size: 14px;
+	padding: 0 5px;
+}
+
+.addToFav:hover{
+	color: white;
+	background: #7ad;
+}
+
+.addToFav img{
+	height: 16px;
+}
+
+section li:hover .addToFav{
+	display: inline;
+}
+
+#fav_roms .addToFav{
+	background: #f55;
+	border-color: #c22;
+}
+
+#fav_roms .addToFav:hover{
+	background: #d33;
 }
